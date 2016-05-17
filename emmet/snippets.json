@@ -1,0 +1,31 @@
+{
+    "jade": {
+        "snippets": {
+            "img": "img(src='images/$1' alt='$2' width='$3' height='$4')",
+            "inputp": "input(type='${1:text}' name='$2' placeholder='$3')"
+        }
+    },
+    "scss": {
+        "snippets": {
+            "screen": "@include screen(${1:res-min}, ${2:res-max}, ${3:orientation}) {}",
+            "mins": "@include min-screen(${1:media-querie}) {}",
+            "maxs": "@include max-screen(${1:media-querie}) {}",
+            "minsh": "@include min-screen-height(${1:media-querie}) {}",
+            "maxsh": "@include max-screen-height(${1:media-querie}) {}",
+            "cont": "@include container;",
+            "cf": "@include clearfix;",
+            "vert": "@include vertical-center;",
+            "hv": ":hover {}",
+            "ac": ":active {}",
+            "lc": ":last-child {}",
+            "fc": ":first-child {}",
+            "ntc": ":nth-child($1) {}",
+            "bf": "::before {\n    content: '${1}';\n}",
+            "af": "::after {\n    content: '${1}';\n}",
+            "transi": "transition: ${1:property} ${2:time}s ${3:ease-in};",
+            "transf": "transform: ${1:transformation}(${2:valor});",
+            "acc": "transform: translateZ(0);",
+            "fface": "@font-face {\n    font-family: '$1';\n    src: url('../fonts/$1/$1.eot');\n    src: url('../fonts/$1/$1.eot?#iefix') format('embedded-opentype'),\n         url('../fonts/$1/$1.woff') format('woff'),\n         url('../fonts/$1/$1.ttf') format('truetype'),\n         url('../fonts/$1/$1.svg#$1') format('svg');\n    font-weight: normal;\n    font-style: normal;\n}"
+        }
+    }
+}

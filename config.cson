@@ -1,0 +1,20 @@
+"*":
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 83
+        green: 87
+        blue: 83
+        alpha: 1
+  core:
+    autoHideMenuBar: true
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontFamily: "Ubuntu Mono"
+  "exception-reporting":
+    userId: "8e9baabd-3271-c187-1fe2-b45a2371522c"
+  welcome:
+    showOnStartup: false
